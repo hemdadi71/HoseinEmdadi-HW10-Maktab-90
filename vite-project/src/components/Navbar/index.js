@@ -5,7 +5,7 @@ import Input from '../Input';
 const Navbar = () => {
   return El({
     element: 'nav',
-    className: 'h-16 w-auto xl:w-auto 2xl:max-w-7xl m-auto flex items-center',
+    className: 'h-16 w-auto xl:w-auto 2xl:max-w-[90rem] m-auto flex items-center justify-center',
     child: [
       button({
         child: 'ثبت آگهی',
@@ -74,12 +74,12 @@ const Navbar = () => {
       El({
         element: 'div',
         child: '',
-        className: 'w-[.1rem] h-7 bg-gray-200',
+        className: 'w-[.1rem] h-7 bg-gray-200 hidden xl:block',
       }),
       El({
         element: 'img',
         src: '../../../src/components/Navbar/img/download (1).svg',
-        className:"w-10 ml-5"
+        className: 'w-10 ml-5 hidden xl:block',
       }),
     ],
   });
