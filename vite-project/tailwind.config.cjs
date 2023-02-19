@@ -4,10 +4,14 @@ module.exports = {
   purge: ['./index.html', './main.js', './src/**/*.js'],
   content: [],
   theme: {
-    extend: {},
-    colors: {
-      brown: '#A62626',
-    }
+    extend: {
+      colors: {
+        brown: '#A62626',
+      },
+      fontFamily: {
+        vazir: 'vazir',
+      },
+    },
   },
   plugins: [],
 };
