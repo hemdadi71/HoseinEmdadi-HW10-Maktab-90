@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         brown: '#A62626',
+        side: '#C3C3C3',
       },
       fontFamily: {
         vazir: 'vazir',

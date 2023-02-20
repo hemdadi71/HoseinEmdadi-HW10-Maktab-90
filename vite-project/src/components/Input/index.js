@@ -34,7 +34,7 @@ const Input = () => {
         element: 'img',
         child: '',
         src: '../../../src/components/Navbar/img/location.png',
-        className:'absolute xl:hidden top-3 left-2'
+        className: 'absolute xl:hidden top-3 left-2',
       }),
     ],
   });

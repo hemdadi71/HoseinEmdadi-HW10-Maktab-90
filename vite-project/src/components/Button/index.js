@@ -16,7 +16,7 @@ const button = ({ element, child, variant = 'contained' }) => {
   } else {
     return El({
       element: element || 'button',
-      className: `${varients[variant]} xl:flex hidden text-gray-200 px-3 py-2 mr-4 ml-5 h-10 rounded-md font-bold text-md mx-3 text-sm items-center`,
+      className: `${varients[variant]} xl:flex hidden text-gray-200 px-3 py-2 mr-4 ml-0 h-10 rounded-md font-bold text-md mx-3 text-sm items-center`,
       style: 'font-family:vazir',
       child,
     });

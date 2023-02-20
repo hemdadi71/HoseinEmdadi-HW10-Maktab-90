@@ -4,8 +4,22 @@
 
 @layer base {
   @font-face {
-    
-    font-family: 'vazir';
+    font-family: vazir;
     src: url(../img/fonts/Vazir-Regular-FD.ttf);
+  }
+}
+html {
+  @apply font-vazir;
+  overflow-y: hidden;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
