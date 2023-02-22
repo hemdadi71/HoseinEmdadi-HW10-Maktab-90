@@ -27,11 +27,11 @@ const Container = child => {
           El({
             element: 'section',
             className:
-              'max-h-[750px] w-full overflow-auto no-scrollbar pb-5 text-right xl:text-left xl:mr-10 2xl:max-h-[900px]',
+              'max-h-[750px] w-full overflow-auto no-scrollbar pb-5 xl:mr-10 2xl:max-h-[900px]',
             child: [
               El({
                 element: 'p',
-                className: 'text-gray-400 text-xs pt-9',
+                className: 'text-gray-400 text-xs pt-9 xl:text-left text-right',
                 child: 'دیوار تهران ،انواع آگهی و خدمات در تهران',
               }),
               El({
@@ -51,7 +51,8 @@ const Container = child => {
       }),
       El({
         element: 'footer',
-        className: 'sticky bottom-0 flex xl:hidden bg-white h-[60px] border-t border-gray-300',
+        className:
+          'sticky bottom-0 flex xl:hidden bg-white h-[60px] border-t border-gray-300',
         child: [BottomMenu()],
       }),
     ],

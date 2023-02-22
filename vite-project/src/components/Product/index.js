@@ -12,6 +12,7 @@ const Product = ({
   return El({
     element: 'div',
     className: 'flex  border rounded-md gap-3 p-4',
+    
     child: [
       El({
         element: 'img',
@@ -26,6 +27,7 @@ const Product = ({
           El({
             element: 'p',
             className: 'font-bold text-gray-600 h-14 overflow-hidden max-w-fit text-ellipsis',
+            
             child: `${title}`,
           }),
           El({
