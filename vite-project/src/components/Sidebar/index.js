@@ -4,7 +4,7 @@ const Sidebar = () => {
   return El({
     element: 'div',
     className:
-      'w-[16rem] xl:max-h-[50%] 2xl:max-h-[85%] overflow-auto no-scrollbar',
+      'w-[16rem] xl:max-h-[55%] 2xl:max-h-[860px] pt-9 overflow-auto no-scrollbar',
     dir: 'rtl',
     child: [
       El({
@@ -191,7 +191,8 @@ const Sidebar = () => {
       }),
       El({
         element: 'div',
-        className: 'border-b border-gray-300 h-14 pr-3 pt-4 text-sm overflow-hidden',
+        className:
+          'border-b border-gray-300 h-14 pr-3 pt-4 text-sm overflow-hidden',
         child: [
           El({
             element: 'img',
@@ -265,17 +266,17 @@ const Sidebar = () => {
         child: [
           El({
             element: 'a',
-            href:'#',
+            href: '#',
             child: 'درباره دیوار',
           }),
           El({
             element: 'a',
-            href:'#',
+            href: '#',
             child: 'دریافت برنامه',
           }),
           El({
             element: 'a',
-            href:'#',
+            href: '#',
             child: 'بلاگ دیوار',
           }),
         ],
@@ -286,12 +287,12 @@ const Sidebar = () => {
         child: [
           El({
             element: 'a',
-            href:'#',
+            href: '#',
             child: 'کسب و کار ها',
           }),
           El({
             element: 'a',
-            href:'#',
+            href: '#',
             child: 'پشتیبانی و قوانین',
           }),
         ],
@@ -302,22 +303,22 @@ const Sidebar = () => {
         child: [
           El({
             element: 'img',
-            className:'cursor-pointer',
+            className: 'cursor-pointer',
             src: '../../../src/components/Sidebar/img/twitter.png',
           }),
           El({
             element: 'img',
-            className:'cursor-pointer',
+            className: 'cursor-pointer',
             src: '../../../src/components/Sidebar/img/instagram.png',
           }),
           El({
             element: 'img',
-            className:'cursor-pointer',
+            className: 'cursor-pointer',
             src: '../../../src/components/Sidebar/img/linkedin-logo.png',
           }),
           El({
             element: 'img',
-            className:'cursor-pointer',
+            className: 'cursor-pointer',
             src: '../../../src/components/Sidebar/img/youtube.png',
           }),
         ],
